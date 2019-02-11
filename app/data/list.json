@@ -1,0 +1,22 @@
+[
+    {
+        "title": "foo 1",
+        "imageUrl": "images/studio-dream.jpg"
+    },
+    {
+        "title": "foo 2",
+        "imageUrl": "images/studio-dream.jpg"
+    },
+    {
+        "title": "foo 3",
+        "imageUrl": "images/studio-dream.jpg"
+    },
+    {
+        "title": "foo 4",
+        "imageUrl": "images/studio-dream.jpg"
+    },
+    {
+        "title": "foo 5",
+        "imageUrl": "images/studio-dream.jpg"
+    }
+]

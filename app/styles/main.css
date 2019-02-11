@@ -1,0 +1,35 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+article-list {
+    width: 100%;
+}
+
+article-list-item {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: calc(20% - 20px);
+}
+
+article-list-item h2 {
+    font-size: 12px;
+    margin: 0 0 5px 0;
+    font-weight: normal;
+}
+
+article-list-item input {
+    width: 100px;
+}
+
+article-list-item img {
+    width: 100px;
+}
