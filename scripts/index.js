@@ -15,13 +15,14 @@ appModule.component('header', {
 appModule.component('articleList', {
     controller: ($http, $scope) => new (class {
         constructor() {
+            this.url = './data/list.json';
             $scope.list = [];
             this.fetchArticles();
         }
 
         async fetchArticles() {
             console.log('fetchArticles');
-            const response = await $http.get('/data/list.json');
+            const response = await $http.get(this.url);
             const list = response.data.map((item, index) => {
                 item.imageUrl += `?${index}-${Date.now()}`;
                 return item;
