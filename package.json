@@ -15,11 +15,11 @@
         "lint": "eslint ."
     },
     "dependencies": {
-        "gh-pages": "^2.0.1"
+        "gh-pages": "^2.2.0"
     },
     "devDependencies": {
-        "eslint": "^5.11.0",
-        "eslint-config-piecioshka": "^2.0.1"
+        "eslint": "^6.8.0",
+        "eslint-config-piecioshka": "^2.0.2"
     },
     "repository": {
         "type": "git",
