@@ -2,7 +2,7 @@
 
 :ledger: Testing Angular.js lazy loading components
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-angularjs-lazyload>
 
